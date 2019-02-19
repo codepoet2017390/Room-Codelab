@@ -11,7 +11,7 @@ import java.util.List;
 public interface WordDao {
 
     @Insert
-    void insert(String word);
+    void insert(Word word);
 
     @Query("DELETE FROM word_table")
     void deleteAll();
